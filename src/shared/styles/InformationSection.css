@@ -1,0 +1,27 @@
+.information-section-container {
+    background-color: #1e1e1e;
+    border: 5px solid #444444;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.information-section {
+    text-align: left;
+    color: #ffffff;
+}
+
+.information-section h1 {
+    font-size: 12.8px;
+    color: #aaaaaa;
+    margin: 0 0 10px;
+}
+
+.content {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 10px;
+}

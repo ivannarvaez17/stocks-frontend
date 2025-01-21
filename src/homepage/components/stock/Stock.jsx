@@ -3,7 +3,7 @@ import StockImage from "./StockImage";
 import StockTitle from "./StockTitle";
 import StockSubtitle from "./StockSubtitle";
 import StockChanges from "./StockChanges";
-import "../styles/Stock.css";
+import "../../styles/stock/Stock.css";
 
 const Stock = ({ stock }) => {
   const { ticker, name, closing, percentageChange, imgUrl } = stock;

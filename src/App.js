@@ -4,13 +4,13 @@ import axios from "axios";
 import TotalInvesting from "./homepage/components/TotalInvesting";
 import BuyingPower from "./homepage/components/BuyingPower";
 import WatchList from "./homepage/components/WatchList";
-import "./App.css";
+import "./App.js";
 
 const App = () => {
  
 
    let [data, setData] = useState(null);
-  console.log("data",data)
+ 
     data = {
     "totalInvesting": {
         "total": 600.55,
@@ -62,6 +62,7 @@ const App = () => {
 }
   const { totalInvesting, buyingPower, stocksData } = data;
 
+  console.log({ totalInvesting, buyingPower, stocksData })
   return (
     <div className="app-container">
       <TotalInvesting 

@@ -1,17 +1,16 @@
 import React from "react";
-import Stock from "./Stock";
+import InformationSection from "../../shared/components/InformationSection";
+import Stock from "./stock/Stock"; 
 import "../styles/WatchList.css";
 
 const WatchList = ({ stocksData }) => {
   return (
-    <div className="watchlist-container">
-      <div className="watchlist">
-        <h3>Watchlist</h3>
-        {stocksData.map((stock, index) => (
-          <Stock key={index} stock={stock} />
-        ))}
-      </div>
-    </div>
+    <InformationSection
+      title="Watchlist"
+      content={stocksData.map((stock, index) => (
+        <Stock key={index} stock={stock} />
+      ))}
+    />
   );
 };
 

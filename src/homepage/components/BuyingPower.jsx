@@ -1,15 +1,15 @@
 import React from "react";
+import InformationSection from "../../shared/components/InformationSection"; 
 import "../styles/BuyingPower.css";
 
 const BuyingPower = ({ buyingPower }) => {
+    console.log("buyingPower",buyingPower)
   return (
-    <div className="buying-power-container">
-      <div className="buying-power">
-        <h1>Buying Power</h1>
-        <h2>${buyingPower.toFixed(2)}</h2>
-        <button className="deposit-button">+ Deposit</button>
-      </div>
-    </div>
+    <InformationSection
+      title="Buying Power"
+      content={<h2>${buyingPower.toFixed(2)}</h2>}
+      footer={<button className="deposit-button">+ Deposit</button>}
+    />
   );
 };
 

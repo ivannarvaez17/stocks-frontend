@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/StockChanges.css";
+import "../../styles/stock/StockChanges.css";
 
 const StockChanges = ({ closing, percentageChange }) => {
   return (

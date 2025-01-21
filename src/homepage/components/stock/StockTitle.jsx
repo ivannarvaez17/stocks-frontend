@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/StockTitle.css";
+import "../../styles/stock/StockTitle.css";
 
 const StockTitle = ({ title }) => {
   return <h4 className="stock-title">{title}</h4>;
