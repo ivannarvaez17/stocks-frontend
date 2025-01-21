@@ -1,35 +1,38 @@
-.buying-power {
-    text-align: center;
-    margin-bottom: 20px;
+.buying-power-container {
     background-color: #1e1e1e;
-    padding: 20px;
+    border: 5px solid #444444;
     border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.buying-power {
+    text-align: left;
     color: #ffffff;
 }
 
 .buying-power h1 {
-    font-size: 16px;
+    font-size: 12.8px;
     color: #aaaaaa;
     margin: 0;
 }
 
 .buying-power h2 {
-    font-size: 36px;
+    font-size: 28.8px;
     margin: 10px 0;
-    color: #ffffff;
 }
 
-.buying-power .deposit-button {
+.deposit-button {
     background-color: #333333;
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 8px;
     border: none;
-    font-size: 14px;
+    font-size: 11.2px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.buying-power .deposit-button:hover {
+.deposit-button:hover {
     background-color: #444444;
 }

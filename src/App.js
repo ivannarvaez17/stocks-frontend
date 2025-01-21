@@ -4,6 +4,7 @@ import axios from "axios";
 import TotalInvesting from "./homepage/components/TotalInvesting";
 import BuyingPower from "./homepage/components/BuyingPower";
 import WatchList from "./homepage/components/WatchList";
+import "./App.css";
 
 const App = () => {
  
