@@ -1,0 +1,16 @@
+.stock-changes {
+    text-align: right;
+}
+
+.closing-value {
+    font-size: 18px;
+    margin: 0;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}

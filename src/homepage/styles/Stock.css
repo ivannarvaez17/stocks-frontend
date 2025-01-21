@@ -1,0 +1,38 @@
+.stock-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.stock-info {
+    display: flex;
+    align-items: center;
+}
+
+.stock-name {
+    font-size: 14px;
+    color: #aaaaaa;
+    margin: 0;
+}
+
+.stock-data {
+    text-align: right;
+}
+
+.closing-value {
+    font-size: 16px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.positive-change {
+    color: #4caf50;
+}
+
+.negative-change {
+    color: #f44336;
+}

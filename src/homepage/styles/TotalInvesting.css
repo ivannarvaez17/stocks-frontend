@@ -1,0 +1,32 @@
+.total-investing {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.total-investing h1 {
+    font-size: 16px;
+    color: #aaaaaa;
+    margin: 0;
+}
+
+.total-investing h2 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.total-investing p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.positive-change {
+    color: #4caf50;
+}
+
+.negative-change {
+    color: #f44336;
+}
