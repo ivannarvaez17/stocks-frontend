@@ -1,7 +1,11 @@
 .app-container {
-
-    padding: 20px;
-    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;        
+}
+.stocks-info{
+    width: 30%;
 }
 body {
     background-color: #1e1e1e;

@@ -6,18 +6,18 @@ import StockChanges from "./StockChanges";
 import "../../styles/stock/Stock.css";
 
 const Stock = ({ stock }) => {
-  const { ticker, name, closing, percentageChange, imgUrl } = stock;
+  const { ticker, name, closing, percentagechange, imgurl } = stock;
 
   return (
     <div className="stock-item">
       <div className="stock-info">
-        <StockImage imgUrl={imgUrl} ticker={ticker} />
+        <StockImage imgurl={imgurl} ticker={ticker} />
         <div>
           <StockTitle title={ticker} />
           <StockSubtitle subtitle={name} />
         </div>
       </div>
-      <StockChanges closing={closing} percentageChange={percentageChange} />
+      <StockChanges closing={closing} percentagechange={percentagechange} />
     </div>
   );
 };

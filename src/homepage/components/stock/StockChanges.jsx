@@ -1,12 +1,12 @@
 import React from "react";
 import "../../styles/stock/StockChanges.css";
 
-const StockChanges = ({ closing, percentageChange }) => {
+const StockChanges = ({ closing, percentagechange }) => {
   return (
     <div className="stock-changes">
       <p className="closing-value">${closing}</p>
-      <p className={percentageChange.startsWith("-") ? "negative" : "positive"}>
-        {percentageChange}%
+      <p className={percentagechange.startsWith("-") ? "negative" : "positive"}>
+        {percentagechange}%
       </p>
     </div>
   );
